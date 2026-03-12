@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support
+    url: https://github.com/flashcatcloud/terraform-provider-flashduty/blob/main/SUPPORT.md
+    about: Find resources for getting help with terraform-provider-flashduty
+  - name: Terraform Registry Documentation
+    url: https://registry.terraform.io/providers/flashcatcloud/flashduty/latest/docs
+    about: Browse the full provider documentation on the Terraform Registry
