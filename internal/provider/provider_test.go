@@ -14,7 +14,7 @@ var testAccProtoV6ProviderFactories = map[string]func() (tfprotov6.ProviderServe
 
 func testAccPreCheck(t *testing.T) {
 	if v := os.Getenv("FLASHDUTY_APP_KEY"); v == "" {
-		t.Fatal("FLASHDUTY_APP_KEY must be set for acceptance tests")
+		t.Skip("FLASHDUTY_APP_KEY not set, skipping acceptance test")
 	}
 }
 

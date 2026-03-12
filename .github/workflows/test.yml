@@ -78,5 +78,6 @@ jobs:
       - run: go mod download
       - env:
           TF_ACC: "1"
+          FLASHDUTY_APP_KEY: ${{ secrets.FLASHDUTY_APP_KEY }}
         run: go test -v -cover ./internal/provider/
         timeout-minutes: 10
